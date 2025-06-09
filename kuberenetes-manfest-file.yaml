@@ -167,7 +167,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/recommendationservicee:1  #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/recommendationservice:1  #please change the image url according to your account
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -608,7 +608,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/currencyservicee:1   #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/currencyservice:1   #please change the image url according to your account
         ports:
         - name: grpc
           containerPort: 7000
