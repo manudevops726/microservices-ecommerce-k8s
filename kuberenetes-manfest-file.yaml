@@ -22,6 +22,7 @@ spec:
       containers:
       - name: server
         securityContext:
+        
           allowPrivilegeEscalation: false
           capabilities:
             drop:
@@ -236,7 +237,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/frontend:latest    #please change the image url according to your account
+          image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/frontend:2   #please change the image url according to your account
           ports:
           - containerPort: 8080
           readinessProbe:
