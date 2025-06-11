@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/manudevops726/microservices-ecommerce-k8s.gitt'
+                git branch: 'main', url: 'https://github.com/manudevops726/microservices-ecommerce-k8s.git'
             }
         }
         stage("Docker Image Build") {
