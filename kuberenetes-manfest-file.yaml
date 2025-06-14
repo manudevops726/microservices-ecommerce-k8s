@@ -611,7 +611,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/currencyservice:3
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/currencyservice:1
         ports:
         - name: grpc
           containerPort: 7000
@@ -675,7 +675,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/shippingservice:2   
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/shippingservice:1  
         ports:
         - containerPort: 50051
         env:
@@ -805,7 +805,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/adservice:7
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/adservice:1
         ports:
         - containerPort: 9555
         env:
