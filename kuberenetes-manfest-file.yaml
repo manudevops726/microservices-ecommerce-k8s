@@ -31,7 +31,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/emailservice:2  #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/emailservice:2 
         ports:
         - containerPort: 8080
         env:
@@ -96,7 +96,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/checkoutservice:2  #please change the image url according to your account
+          image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/checkoutservice:2 
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -170,7 +170,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/recommendationservice:2   #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/recommendationservice:2   
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -239,7 +239,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/frontend:2   #please change the image url according to your account
+          image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/frontend:2   
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -348,7 +348,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/paymentservice:2   #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/paymentservice:2   
         ports:
         - containerPort: 50051
         env:
@@ -412,7 +412,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/productcatalogservice:2   #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/productcatalogservice:2  
         ports:
         - containerPort: 3550
         env:
@@ -476,7 +476,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/cartservice:2  #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/cartservice:2 
         ports:
         - containerPort: 7070
         env:
@@ -568,7 +568,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/loadgenerator:2  #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/loadgenerator:2 
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -611,7 +611,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/currencyservice:2 #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/currencyservice:3
         ports:
         - name: grpc
           containerPort: 7000
@@ -675,7 +675,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/shippingservice:4   #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/shippingservice:2   
         ports:
         - containerPort: 50051
         env:
@@ -805,7 +805,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/adservice:2  #please change the image url according to your account
+        image: 342547628707.dkr.ecr.us-east-1.amazonaws.com/adservice:5 
         ports:
         - containerPort: 9555
         env:
